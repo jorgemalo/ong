@@ -1,0 +1,24 @@
+
+#contactenos h2 {
+	color: #2A6FA5;
+}
+
+
+.item{
+	display: inline-block;
+    margin-right: .9em;
+    background: #858F9D;
+    color: white;
+    padding: .7em;
+    border-radius: .3em;
+    border: 1px solid transparent;
+    transition: .4s all;
+}
+
+.item:hover{
+	background: transparent;
+    color: black;
+    transition: .4s all;
+    border: 1px solid #858F9D;
+
+}
