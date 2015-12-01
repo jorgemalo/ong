@@ -18,6 +18,7 @@
     border: 1px solid transparent;
     transition: .4s all;
 }
+
 .item:nth-child(2) {
     background: #3C5A9A;
 }
@@ -63,3 +64,32 @@
     -o-transition: .5s all;
     transition: .5s all;
 }*/
+
+  @media only screen and (min-width: 0px) and (max-width: 900px){
+        
+    header{
+        background-image: url(../images/b.jpg);
+
+        /*background-image: url(../img/app_28.jpg);*/
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: fixed;
+        background-position: 95% 95%;
+        height: 31em;
+    }
+
+    header .contenido h1{
+        font-size: 22px;
+    }
+
+    header .contenido p{
+        font-size: 1em;
+    }
+        
+    .fullscreen-bg { 
+        min-height: 300px;
+
+    }
+
+
+ }

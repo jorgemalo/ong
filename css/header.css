@@ -76,7 +76,7 @@ body{
  */
 header{ 
      /*position: relative;*/
-         background: rgba(0, 0, 0, 0.67);
+       /*background: rgba(0, 0, 0, 0.67);*/
  
      
 }
@@ -114,7 +114,7 @@ h1.titulo{
      width: 100%;
      
  }
-
+ 
   /*Medias Query*/
  @media screen and (min-width: 700px){	
  	header .contenido{ 
@@ -130,7 +130,7 @@ h1.titulo{
 
  	 	 
  }
-
+/*
  @media only screen and (min-width: 0px) and (max-width: 400px){
 		
 	header .contenido h1{
@@ -165,4 +165,34 @@ h1.titulo{
  	.fullscreen-bg {
 		min-height: 360px;
  	}
+ }*/
+
+
+  @media only screen and (min-width: 0px) and (max-width: 900px){
+		
+	header{
+		background-image: url(../images/b.jpg);
+
+		/*background-image: url(../img/app_28.jpg);*/
+		background-repeat: no-repeat;
+		background-size: cover;
+		background-attachment: fixed;
+		background-position: 95% 95%;
+		height: 31em;
+	}
+
+	header .contenido h1{
+		font-size: 22px;
+	}
+
+	header .contenido p{
+		font-size: 1em;
+	}
+		
+	.fullscreen-bg { 
+		min-height: 300px;
+
+	}
+
+
  }
